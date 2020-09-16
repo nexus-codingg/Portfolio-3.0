@@ -42,4 +42,5 @@ https://microxgleek94.github.io/Responsive-Bootstrap-Website/
 ### Future Developments
 * Add JS to handle the contact page and have emails be sent to me
 * Add JS to have a splash container front page, user has to click a button to enter the website, the splash container gets hidden and then the "main" page with links shows   
-* Use SematicUI ?
+* Use SematicUI for CSS
+* After a user submits an email, have the user be redirected back to the Home page
