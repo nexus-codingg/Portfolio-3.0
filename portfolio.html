@@ -25,7 +25,7 @@
 <body>
   <!-- Navbar & Name Fluid Container -->
   <div class="container-fluid">
-    <section id="NameBar" class="col-sm pl-5 pr-5 text-sm-center">
+    <section id="NameBar" class="col pl-5 pr-5 text-center">
       <h1>Keiana Hanson</h1>
       <!-- navbar // removed "-nav mt-2 mt-lg-0 justify-content-right" in line 40
                   and menu is to the right now -->
@@ -55,80 +55,163 @@
   <!--Main fluid container starts -->
   <!-- "Portfolio" text & background -->
   <div class="container-fluid">
-
     <div class="row" id="main-row">
-      <div class="col-sm-10" id="portBody">
+      <div id="portBody">
         <h3>Portfolio</h2>
           <div id="border" width="400px"></div>
 
           <!-- Portfolio container for images and future links -->
-          <!-- Picture 1,2 First Row-->
+          <!--  First Row: Pictures 1 & 2 -->
           <div class="row">
             <!-- 1st pic -->
-            <div class="col-sm-5">
-              <img src="./Assets/Images/Screenshots/Search_Destroy App pic.jpeg" alt="Video-Game-App" class="img-fluid"
-                id="picStyle">
-              <div class="card text-center" id="title-div">
-                <a class="card-body" href="https://microxgleek94.github.io/ColumbiaProject_-1/"
-                  target="_blank" id="port-text">"Search&Destroy" <br>Group Project #1</a>
-              </div>
-            </div>
-            <!-- This div is used as a space between images -->
-            <div class="col-sm-2"></div>
-            <div class="col-sm-5" id="spacer">
-              <!-- 2nd Pic -->
-              <img src="./Assets/Images/Screenshots/Weather App pic.png" alt="Weather-App" class="img-fluid"
-                id="picStyle">
-              <div class="card text-center" id="title-div">
-                <a href="https://microxgleek94.github.io/Weather-App/" class="card-body" target="_blank" id="port-text">Weather-App</a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Picture 3,4 Second Row-->
-          <div class="row">
-            <!-- 3rd Pic -->
-            <div class="col-sm-5">
-              <img src="" alt="Text says Lets Code" class="img-fluid" id="picStyle">
-              <div class="card text-center" id="title-div">
-                <h4 class="card-body">Coding</h4>
-              </div>
-            </div>
-            <!-- This div is used as a space between images -->
-            <div class="col-sm-2" id="spacer"></div>
-            <!-- 4th Pic -->
-            <div class="col-sm-5">
-              <img src="./Assets/Images/gaming_girl.jpg" alt="Girl on Computer" class="img-fluid" id="picStyle">
+            <div class="col">
+              <img src="./Assets/Images/Screenshots/Search_Destroy App pic.jpeg" alt="Video-Game-App"
+                class="card-img-top" id="picStyle">
               <div class="card text-center">
-                <h4 class="card-body">RPS Game</h4>
+                <div class="card-body" id="cardbody-Style">
+                  <div class="card-header" id="title-div">
+                    <a class="card-title" href="https://microxgleek94.github.io/ColumbiaProject_-1/" target="_blank"
+                      id="port-text">"Search &
+                      Destroy"<br>Group Project #1
+                    </a>
+                  </div>
+                  <p class="card-text"> For my first group project in the bootcamp, we created a game search application
+                    that allows the user to search for a video game, get recommended games based on selected criteria,
+                    and retrieve news and video content of an entered game.
+                  </p>
+                  <a href="https://github.com/microxgleek94/ColumbiaProject_-1" target="_blank" id="port-text">
+                    Check out the repo for this assignment here on Github!
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- 2nd Pic -->
+            <div class="col">
+              <img src="./Assets/Images/Screenshots/stella gif.gif" alt="Music-App" class="img-fluid" id="picStyle">
+              <div class="card text-center">
+                <div class="card-body" id="cardbody-Style">
+                  <div class="card-header" id="title-div">
+                    <a class="card-title" href="https://stellavybezz.herokuapp.com/" target="_blank" id="port-text">
+                      "Stella Vybz" <br> Group Project #2</a>
+                  </div>
+                  <p class="card-text"> For my second group project, we created a social music application where users
+                    can search an artist's songs, albums, and a future development is to then have the users build
+                    their own playlists that they can be shared with their friends. This project is hosted on heroku.
+                  </p>
+                  <a href="https://github.com/microxgleek94/Project2" target="_blank" id="port-text">
+                    Check out the repo for this assignment here on Github!</a>
+                </div>
+              </div>
+            </div>
+            <!-- Second Row: Pictures 3 & 4 -->
+            <div class="row">
+              <!-- 3rd Pic -->
+              <div class="col">
+                <img src="./Assets/Images/Screenshots/Weather App pic.png" alt="Weather-App" class="img-fluid"
+                  id="picStyle">
+                <div class="card text-center">
+                  <div class="card-body" id="cardbody-Style">
+                    <div class="card-header" id="title-div">
+                      <a class="card-title" href="https://microxgleek94.github.io/Weather-App/" target="_blank"
+                        id="port-text">
+                        Weather App
+                      </a>
+                    </div>
+                    <p class="card-text"> This web application utilizes the OpenWeather API, which allows users to
+                      search any city in the
+                      search field, and once the search button is clicked, the city's current weather, including
+                      temperature, UV
+                      Index, Humidity and the current date will be displayed dynamically.
+                    </p>
+                    <a href="https://github.com/microxgleek94/Weather-App" target="_blank" id="port-text">
+                      Check out the repo for this assignment here on Github!
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- 4th Pic -->
+              <div class="col">
+                <img src="./Assets/Images/Screenshots/CLI-App_Demo.gif" alt="CLI-GIF" class="img-fluid" id="picStyle">
+                <div class="card text-center">
+                  <div class="card-body" id="cardbody-Style">
+                    <div class="card-header" id="title-div">
+                      <a class="card-title" href="https://github.com/microxgleek94/README_Generator" target="_blank"
+                        id="port-text">
+                        CLI README Generator
+                      </a>
+                    </div>
+                    <p class="card-text"> A simple command-line (CLI) application 
+                      that runs in your terminal and dynamically generates a README.md from a user's input.
+                    </p>
+                    <a href="https://github.com/microxgleek94/README_Generator" target="_blank" id="port-text">
+                      Check out the repo for this assignment here on Github!
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Third Row: Pictures 5 & 6 -->
+            <div class="row">
+              <!-- 5th Pic -->
+              <div class="col">
+                <img src="./Assets/Images/Screenshots/randomPW_pic.png" alt="Random-Password-Generator-image"
+                class="img-fluid" id="picStyle">
+                <div class="card text-center">
+                  <div class="card-body" id="cardbody-Style">
+                    <div class="card-header" id="title-div">
+                      <a class="card-title" href="https://microxgleek94.github.io/Password-Generator/" target="_blank"
+                        id="port-text">
+                        Random Password Generator
+                      </a>
+                    </div>
+                    <p class="card-text"> This web application runs in the browser and generates a random password based on user-selected
+                      criteria.
+                    </p>
+                    <a href="https://github.com/microxgleek94/Password-Generator" target="_blank" id="port-text">
+                      Check out the repo for this assignment here on Github!
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- 6th Pic -->
+              <div class="col">
+                <img src="./Assets/Images/Screenshots/employee-tracker.gif" alt="Employee Tracker GIF"
+                class="img-fluid" id="picStyle">
+                <div class="card text-center">
+                  <div class="card-body" id="cardbody-Style">
+                    <div class="card-header" id="title-div">
+                      <a class="card-title" href="https://github.com/microxgleek94/CLI-Node_Employee_Tracker" target="_blank"
+                        id="port-text">
+                        CLI Employee Tracker
+                      </a>
+                    </div>
+                    <p class="card-text"> This CLI application runs in the user's terminal and uses a mySQL database to store a table filled 
+                      with employee data. This application can also create company departments, add new employees/managers and also 
+                      delete already existing employees, and add roles/titles to employees.
+                    </p>
+                    <a href="https://github.com/microxgleek94/CLI-Node_Employee_Tracker" target="_blank" id="port-text">
+                      Check out the repo for this assignment here on Github!
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Social Media -->
+            <div class="col-12 text-center" id="link-icons">
+              <div id="border" width="200px"></div>
+              <h2> Check Out More of My Code on Github!</h2>
+              <div class="col-12 text-center" id="link-icons">
+                <a href="https://github.com/microxgleek94" target="_blank"><i class="fab fa-github fa-7x"
+                    id="socialIcon"></i></a>
               </div>
             </div>
           </div>
-
-          <!-- Picture 5 third Row-->
-          <!-- <div class="col-sm-5">
-            <img src="./Assets/Images/man_puzzle_brain.png" alt="Outline of man with puzzle for brain" class="img-fluid"
-              id="picStyle">
-            <div class="card text-center">
-              <h4 class="card-body">Info Widget</h4>
-            </div>
-          </div> -->
-      </div>
-      <!-- Social Media -->
-      <div class="col-sm-12 text-center" id="link-icons">
-        <h2> Check Out My Code!</h2>
-      </div>
-      <div class="col-sm-12 text-center" id="link-icons">
-        <a href="https://github.com/microxgleek94" target="_blank"><i class="fab fa-github fa-7x"
-            id="socialIcon"></i></a>
       </div>
     </div>
-  </div>
 
-
-  <footer class="footer" id="FooterStyle">
-    <h3><span> website designed by Kiki Alexis</span></h3>
-  </footer>
+    <footer class="footer" id="FooterStyle">
+      <h3><span> website designed by Kiki Alexis</span></h3>
+    </footer>
 
 
 
@@ -136,17 +219,17 @@
 
 
 
-  <!-- JS Script -->
-  <script src="https://kit.fontawesome.com/be3bff3f75.js" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-  </script>
+    <!-- JS Script -->
+    <script src="https://kit.fontawesome.com/be3bff3f75.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
