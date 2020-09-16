@@ -30,8 +30,12 @@ https://microxgleek94.github.io/Responsive-Bootstrap-Website/
 
 
 ## Some Screenshots of the Mobile and Desktop Views of the website:
+
+### Home Page (Desktop View)
 ![Main Page Desktop View](Assets/Images/Screenshots/Main-Page-Desktop.png) 
+### Home Page (Mobile View)
 ![Main Page Mobile View](Assets/Images/Screenshots/Main-Page-Mobile.png) 
+### Portfolio Page (Desktop View)
 ![Portfolio Desktop View](Assets/Images/Screenshots/Portfolio-DesktopView.gif) 
 
 
