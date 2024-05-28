@@ -19,13 +19,13 @@ This updated version of my portfolio highlights some new concepts I have learned
 These concepts are highlighted in my updated "Portfolio" HTML file, which now holds images and the deployed links of projects/assignments I've worked on during the course.
 
 ### View my updated portfolio here!
-https://microxgleek94.github.io/Portfolio-3.0/
+https://nexus-codingg.github.io/Portfolio-3.0/
 
 ### Check out version 2.0
-https://microxgleek94.github.io/Portfolio.Ver-2.0/
+https://nexus-codingg.github.io/Portfolio.Ver-2.0/
 
 ### Check out version 1.0
-https://microxgleek94.github.io/Responsive-Bootstrap-Website/
+https://nexus-codingg.github.io/Responsive-Bootstrap-Website/
 
 
 
